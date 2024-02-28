@@ -1,0 +1,18 @@
+<key>NSAppTransportSecurity</key>
+<dict>
+    <key>NSPinnedDomains</key>
+    <dict>{{range .}}
+        <key>{{.Domain}}</key>
+        <dict>
+            <key>NSIncludesSubdomains</key>
+            <true/>
+            <key>NSPinnedLeafIdentities</key>
+            <array>
+                <dict>
+                    <key>SPKI-SHA256-BASE64</key>
+                    <string>{{.FingerPrint}}</string>
+                </dict>
+            </array>
+        </dict>{{end}}
+	</dict>
+</dict>
