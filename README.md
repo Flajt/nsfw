@@ -6,7 +6,7 @@
 Generates you Network Security files for Android (network_security_config.xml) and the NSAppTransportSecurity part iOS via a simple cli.
 
 > [!NOTE]
-> Info: Note that the Info.plist might not be valid, since there is no header and it starts with <key>
+> Info: Note that the Info.plist might not be "valid", since there is no header and it starts with a key tag
 
 - 📦 No external dependencies
 - 📁 Output as file or as plain text
