@@ -7,7 +7,7 @@ import (
 )
 
 const (
-	androidSecurityConfigFileName = "android_network_security_config.xml"
+	androidSecurityConfigFileName = "network_security_config.xml"
 	iosSecurityConfigFileName     = "Info.plist"
 )
 
