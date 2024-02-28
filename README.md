@@ -31,7 +31,7 @@ Generates you Network Security files for Android (network_security_config.xml) a
 
 ### Example
 
-- `nsfw -websites https://test.com -output ~/my-app/android/app/src/main/xml/ressources -platforms android`: Creates the android `network_security_config.xml` in its folder for test.cmo
+- `nsfw -websites https://test.com -output ~/my-app/android/app/src/main/res/xml/ -platforms android`: Creates the android `network_security_config.xml` in its folder for test.cmo
 - `nsfw -websites https://test.com,https://www.test2.com -no-file -platforms ios`: Returns the `NSNetworkAppTransportSecurity` config in the terminal
 - `nsfw -websites https://test.com https://www.test2.com`: Generate both config files for ios and android and saves them into the current folder
 
